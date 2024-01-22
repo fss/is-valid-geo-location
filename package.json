@@ -2,23 +2,25 @@
   "name": "is-valid-geolocation",
   "version": "1.0.0",
   "description": "A simple package for lat/lng validation",
-  "main": "index.js",
   "exports": {
     ".": {
       "types": {
+        "require": "./index.d.cts",
         "default": "./index.d.ts"
       },
       "browser": {
+        "require": "./dist/index.cjs",
         "default": "./index.js"
       },
       "default": {
+        "require": "./dist/index.cjs",
         "default": "./index.js"
       }
-    },
-    "./package.json": "./package.json"
+    }
   },
   "type": "module",
-  "types": "index.d.ts",
+  "types": "./index.d.ts",
+  "main": "./index.js",
   "scripts": {},
   "repository": {
     "type": "git",
