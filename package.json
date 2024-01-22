@@ -1,0 +1,29 @@
+{
+  "name": "is-valid-geolocation",
+  "version": "1.0.0",
+  "description": "A simple package for lat/lng validation",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": {
+        "default": "./index.d.ts"
+      },
+      "browser": {
+        "default": "./index.js"
+      },
+      "default": {
+        "default": "./index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "type": "module",
+  "types": "index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.fss.cc/public-projects/is-valid-geolocation.git"
+  },
+  "author": "Rafał Drąg <rd@fss.cc>",
+  "license": "ISC"
+}
