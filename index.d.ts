@@ -1,3 +1,3 @@
-export function isValidLatitude (value: any): boolean
-export function isValidLongitude (value: any): boolean
-export function isValidGeolocation (location: { lat: any, lng: any }): boolean
+export function isValidLatitude (value?: number | any): boolean
+export function isValidLongitude (value?: number | any): boolean
+export function isValidGeolocation (location: { lat?: number | any, lng?: number | any }): boolean
